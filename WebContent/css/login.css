@@ -1,0 +1,98 @@
+#login-container {
+	/*display:none;*/
+	width: 700px;
+	height: 300px;
+	border-radius: 15px;
+	position: relative;
+	border: 2px solid #BDBFC1;
+	background: rgba(255, 255, 255, 0.4);
+	margin: 0 auto;
+	top: 140px;
+}
+
+.login-title {
+	width: 130px;
+	height: 50px;
+	position: absolute;
+	left: 20px;
+	top: -25px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: #c05cb8;
+	font-size: 25px;
+	font-family: arial;
+}
+
+.testbutton_login {
+	outline: none;
+	font-size: 16px;
+	border-radius: 15px;
+	background: #9198e5;
+	border: 2px solid #9198e5;
+	padding: 9px 60px;
+	color: #000000 !important;
+	font-weight: bold;
+}
+
+.testbutton_clear {
+	outline: none;
+	font-size: 16px;
+	border-radius: 15px;
+	background: #e66465;
+	padding: 9px 60px;
+	border: 2px solid #e66465;
+	color: #000000 !important;
+	font-weight: bold;
+}
+
+.input {
+	margin: 0;
+	border: 0px solid rgb(180, 180, 180);
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 60px;
+	height: 37px;
+	width: 70%;
+	outline: none;
+	font-size: 16px;
+	text-align: left;
+}
+
+.table {
+	border-radius: 6px;
+	border-top-width: 0px;
+	border: 1px solid #B7B7B7;
+	background-color: #DFDFDF;
+	width: 450px;
+	height: 37px;
+}
+
+input:hover {
+	border: 8px solid transparent;
+}
+
+@media screen and (max-width: 400px) {
+	#login-container {
+		top: 150px;
+		width: 95%;
+	}
+	.login-title {
+		font-size: 18px;
+	}
+	.table {
+		width: 100%;
+	}
+	.input {
+		background-color: #DFDFDF;
+		width: 90%;
+	}
+	.testbutton_clear {
+		position: relative;
+		padding: 8px 8px;
+	}
+	.testbutton_login {
+		position: relative;
+		padding: 8px 8px;
+	}
+}

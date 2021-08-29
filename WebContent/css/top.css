@@ -1,0 +1,21 @@
+.top {
+	/* 定位 */
+	position: fixed;
+	display: none;
+	/* 位置 */
+	right: 2px;
+	bottom: 66px;
+	/* 大小 */
+	width: 30px;
+	height: 45px;
+	/* 轮廓 */
+	border-radius: 8px;
+	/* 背景 */
+	color: #007BFF;
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: #333333 0px 0px 10px;
+	/* 对齐方式 */
+	text-align: center;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
